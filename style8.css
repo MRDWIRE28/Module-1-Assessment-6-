@@ -1,0 +1,70 @@
+*Font properties*/
+@font-face{
+    src:url(font/Coalition_v2.);
+    font-family:Coalition;
+}
+@font-face{
+    src:url(font/batmfa__.ttf);
+    font-family:bat;
+}
+
+
+
+/*Background image */
+body{
+    background-image: url(images/background/BGP.jpg);
+    background-repeat: repeat-y;
+    margin: 1px;
+    background-color: black;
+    width: 100%;
+    color: white;
+   
+}
+
+/* headinging*/
+
+.digital{
+    color: red;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    font-family:  Coalition;
+}
+    
+.sl{
+    font-family:bat;
+    color:#0052cc;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+
+.visa {
+    height: 40px;
+    
+    padding-top: 15px;
+    
+    float: right;
+}
+.pay {
+    font-size: 25px;
+    color: white
+}
+.pur {
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-style:solid;
+   
+    font-family:bat;
+}
+
+.home {
+    text-align: center;
+    font-size: 25px;
+}
+

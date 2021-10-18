@@ -1,0 +1,183 @@
+*Font properties*/
+@font-face{
+    src:url(font/Coalition_v2.);
+    font-family:Coalition;
+}
+@font-face{
+    src:url(font/batmfa__.ttf);
+    font-family:bat;
+}
+
+/*Background image */
+body{
+    background-image: url(images/background/BGP.jpg);
+    background-repeat: repeat-y;
+    margin: 1px;
+    background-color: black;
+    width: 100%;
+    color: white;
+   
+}
+
+/* headinging*/
+
+.digital{
+    color: red;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    font-family:  Coalition;
+}
+    
+.sl{
+    font-family:bat;
+    color:#0052cc;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+
+.game{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#par {
+    padding-left: 15px;
+    font-size: 20px;
+}
+.par1 {
+    color: red;
+    font-family:bat;
+}
+
+.img2{
+    float: right;
+    opacity: 0.5;
+    padding-top: 15px;
+}
+.par2{
+    color: cornflowerblue;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#form {
+    font-size: 18px;
+    font-family: halvetica:san-serif;
+}
+.sub{
+    height: 25px;
+    background-color: blue;
+    font-size: 20px;
+    font-family:bat;
+}
+
+#menu-bar{
+    text-align: center;
+    background-color: #cc0000;
+    font-family:bat;
+    font-size: 20px;
+}
+
+#menu-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800px;
+    padding-right: 150px;
+    
+   
+}
+#menu-bar a:hover{
+    background-color: lightcyan;
+    color: #cc0000; 
+    height: 20px;  
+}
+
+/*Drop-down*/
+.dropbtn {
+    background-color: #cc0000;
+    color: white;
+    padding: 2px;
+    font-size:20px;
+    border: none;
+    cursor: pointer;
+    font-family:bat;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+    font-family:bat;   
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color:#cc0000}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #cc0000;   
+}
+
+.dropdown:hover .dropbtn {
+    background-color:lightgray;
+    font-family:bat;
+    color: #cc0000;   
+}
+#play{
+    font-size: 20px;
+    padding-left: 15px;
+}
+#gallery table {
+    width: 100%;
+}
+#gallery th{
+    font-family:bat; 
+    font-size: 25px;
+    background-color: lightgray;
+    color: red;
+    
+}
+.img1{
+   width: 100%;
+}
+.img2{
+   width: 100%;
+}
+
+.img3{
+   width: 50%;
+}
+.img4{
+   width: 100%;
+}
+.img5{
+   width: 100%;
+    opacity: 1.0;
+
+}
+.img45{
+    float: right;
+}

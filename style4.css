@@ -1,0 +1,283 @@
+/*Font properties*/
+@font-face{
+    src:url(font/Coalition_v2.);
+    font-family:Coalition;
+}
+@font-face{
+    src:url(font/batmfa__.ttf);
+    font-family:bat;
+}
+
+
+/*Background image */
+body{
+    background-image: url(images/background/BGP.jpg);
+    background-repeat: repeat-y;
+    margin: 1px;
+    background-color: black;
+    width: 100%;
+   
+}
+
+
+/* headinging*/
+
+.digital{
+    color: red;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    font-family:  Coalition;
+}
+    
+.sl{
+    font-family:bat;
+    color:#0052cc;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+/*Menu-bar*/
+#menu-bar{
+    text-align: center;
+    background-color: #cc0000;
+    font-family:bat;
+    font-size: 20px;
+}
+
+#menu-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800px;
+    padding-right: 150px;
+    
+   
+}
+#menu-bar a:hover{
+    background-color: lightcyan;
+    color: #cc0000; 
+    height: 20px;  
+}
+
+/*Drop-down*/
+.dropbtn {
+    background-color: #cc0000;
+    color: white;
+    padding: 2px;
+    font-size:20px;
+    border: none;
+    cursor: pointer;
+    font-family:bat;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+    font-family:bat;   
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color:#cc0000}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #cc0000;   
+}
+
+.dropdown:hover .dropbtn {
+    background-color:lightgray;
+    font-family:bat;
+    color: #cc0000;   
+}
+/*Product*/
+
+.rog {
+    background-color: lightgray;
+    color:  #cc0000;
+    text-align: center;
+}
+.img1{
+    padding-left:400px;
+    image-orientation: center;
+}
+
+.rs {
+    color: white;
+    text-align: center;
+    font-family:bat;
+}
+
+#gal table,td,tr{
+    border: 1px solid white;
+    
+}
+#gal table {
+    width: 100%
+    
+}
+#gal img{
+    padding: 5px;   
+}
+
+.par h3,h2{
+    color: #cc0000;
+    padding-left: 15px;
+    font-family:bat;
+}
+.par p{
+    color: white;
+    font-family: halvetica:san-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+}
+/*product pricing*/
+.price {
+    background-color: lightgray;
+    color:black;
+    padding-left: 10px;
+}
+
+/*product pricing table*/
+.stars {
+    height: 15px;
+}
+#tab1 table, tr,td{
+    border: 1px solid white;
+    color: white;
+       font-family: halvetica:san-serif;
+    font-size: 20px;
+}
+#tab1 table {
+    width: 100%
+}
+
+#tab1 td{
+    padding-left: 18px;
+}
+
+.new-arrivals{
+    background-color: #00ff00;
+    width: 60px;
+    color: black;
+    font-family: halvetica:san-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.R {
+    color: #ffff33;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.quan {
+    font-family: halvetica:san-serif;
+    font-size: 20px;
+}
+
+#buy {
+    font-size: 15px;
+    
+}
+#buy a{
+    text-decoration: none;
+    font-family:bat;
+    color: red;
+    background-image: url(image-buttons/menu-button.gif);
+    background-repeat: no-repeat;
+    display: block;
+    width: 128px;
+    height: 25px;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+#buy a:hover{
+    background-image: url(image-buttons/menu-button-hover.gif);
+    color: green;   
+}
+
+/*Design*/
+.par1 {
+    color: white;
+    padding-left: 10px;
+    font-family: halvetica:san-serif;
+    font-size: 20px;
+}
+
+.img01 {
+     float: right;
+    padding-right: 5px;
+}
+
+
+.img31{
+    float: right;
+    padding-right: 5px;
+}
+.perf {
+    color: red;
+    font-family:bat;
+    padding-left: 10px;
+    font-size: 25px;
+}
+#display h2 {
+    font-family:bat;
+    color: red;
+}
+
+.img4{
+    float: left;
+}
+.img41{
+    float: right;
+}
+.img42{
+    float: left;
+}
+.img43{
+    float: right;
+}
+.img44{
+    float: left;
+}
+.img45{
+    float:inherit;
+    width: 100%
+}
+#tabS table,th,td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+#tabS table{
+    width: 100%
+}
+#tabS th{
+   text-transform: uppercase;
+    background-color: lightgray;
+    color: black;
+}
+#tabS td {
+    text-align: match-parent;
+    padding: 10px;
+}
